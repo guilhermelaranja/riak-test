@@ -1,3 +1,5 @@
+http://basho.com/posts/technical/running-riak-in-docker/
+
 # riak-test
 
 Just checking out Riak.
