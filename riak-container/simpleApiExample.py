@@ -1,8 +1,8 @@
 import sys
 import riak
 
-port=sys.argv[1]
-host=sys.argv[2]
+port=sys.argv[2]
+host=sys.argv[1]
 
 myClient = riak.RiakClient(host=host, pb_port=port, protocol='pbc')
 myBucket = myClient.bucket('test')
